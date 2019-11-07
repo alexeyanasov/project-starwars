@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<title>Моя первая страница</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1 class="header__title">«Я, <a href="about.html">ФИО</a>, изучаю <span class="green">HTML</span>,CSS и JS»</h1>
-	<h2>Header__title__subtitle</h2>
-	<h3 class="green">Heading 1</h3>
-	<p class="green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quae mollitia sit odio earum, ducimus sapiente consequatur reprehenderit qui laborum modi, facere aliquam provident tempora laboriosam animi aperiam? Dicta nam, eveniet totam cum nihil. Dolore porro, voluptas ipsum molestiae ab, consectetur quisquam magnam iusto quas minus sequi minima ducimus harum.</p>
-	<h3 class="yellow">Heading 2</h3>
-	<p class="yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quae mollitia sit odio earum, ducimus sapiente consequatur reprehenderit qui laborum modi, facere aliquam provident tempora laboriosam animi aperiam? Dicta nam, eveniet totam cum nihil. Dolore porro, voluptas ipsum molestiae ab, consectetur quisquam magnam iusto quas minus sequi minima ducimus harum.</p>
-	<h3 class="red">Heading 3</h3>
-	<p class="red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quae mollitia sit odio earum, ducimus sapiente consequatur reprehenderit qui laborum modi, facere aliquam provident tempora laboriosam animi aperiam? Dicta nam, eveniet totam cum nihil. Dolore porro, voluptas ipsum molestiae ab, consectetur quisquam magnam iusto quas minus sequi minima ducimus harum.</p>
 
-	<h3>Просто заголовок для списка</h3>
-	<ul>
-		<li>1. Элемент 1</li>
-		<ul>
-			<li>- Элемент 1.1</li>
-			<li>- Элемент 1.2</li>
-		</ul>
-	</ul>	
-	<ul>
-		<li>2. Элемент 2</li>
-		<ul>
-			<li>§ Элемент 2.1</li>
-			<li>§ Элемент 2.2</li>
-			<li>§ Элемент 2.3</li>
-		</ul>
-	</ul>	
-	<ul>
-		<li>3. Элемент 3</li>
-		<ul>
-			<li>o Элемент 3.1</li>
-			<li>o Элемент 3.2</li>
-		</ul>
-	</ul>
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт фильма "Звёздные войны"</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="logo header__logo" src="img/logo.png" alt="Звёздные войны">
+            <nav class="nav">
+            	<a href="#" class="nav__link">Билеты</a>
+            	<a href="#" class="nav__link">О Фильме</a>
+            	<a href="#" class="nav__link">Трейлеры</a>
+            	<a href="#" class="nav__link">Отзывы</a>
+            </nav>
+        </header>
+
+        <main>
+        	<div class="hero">
+        		<span class="hero__subtitle">Эпизод IX</span>
+        		<h1 class="hero__title">Скайуокер. Восход</h1>
+        		<p class="hero__description">
+        			Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край Галактики и грандиозный финал фантастической саги
+        		</p>
+        		<span class="hero__premier">Премьера</span>
+        		<span class="hero__date">19 декабря 2019</span>
+        		<button class="button-play hero__button-play">Смотреть трейлер</button>
+        	</div>
+        </main>
+    </div>
 </body>
+
 </html>
